@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  max-width: 100%;
+  /* overflow-x: hidden; */
+
+}
+
+main {
+  min-height: 100vh;
+}
+
+html::-webkit-scrollbar {
+  background-color: rgba(162, 0, 255, 0.288);
+  width: .7rem;
+  height: .5rem !important;
+  border-radius: 1rem;
+}
+
+html::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+  background: rgba(51, 51, 51, 0.24);
+  width: .4rem;
+}
+
+html::-webkit-scrollbar-track-piece {
+  border-radius: 1rem;
+}
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.205) !important;
+  z-index: 99;
+}
+
+.navbar-brand {
+  font-size: 2.6rem ! important;
+  color: #565387;
+  font-weight: normal !important;
+  border: none !important;
+}
+
+.navbar a {
+  font-size: 1.9rem !important;
+  text-transform: capitalize;
+}
+
+.active {
+  font-weight: bold;
+  border-bottom: .1rem solid #565387;
+}
+
+.navbar a:hover {
+  color: #3498db !important;
+}
+
+@media (max-width:500px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+
+/***** homepage *****/
+.header {
+  max-width: 100%;
+  margin-top: 7rem !important;
+
+}
+
+#header h1 {
+  margin: 0 0 1rem 0;
+  font-size: 4.4rem ;
+  font-weight: 700;
+  color: black;
+}
+
+#header .brand_name {
+  color: #3498db;
+
+}
+
+#header h2 {
+  color: #484848;
+  font-size: 2.2rem;
+}
+
+
+
+
+.btn-get-started {
+  font-weight: 500;
+  font-size: 1.6rem;
+  letter-spacing: .1rem;
+  display: inline-block;
+  padding: 1rem 3rem;
+  text-decoration: none;
+  border: 0.2rem solid #3498db;
+  text-align: center;
+  border-radius: 5rem;
+  transition: 0.5s;
+}
+
+.btn-get-started:hover {
+  color: #fff !important;
+  background-color: #3498db;
+}
+
+
+#header .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(1rem);
+  }
+
+  100% {
+    transform: translateY(-1rem);
+  }
+}
+
+/***** End homepage *****/
+
+
+/***** Contact page *****/
+.contact_div {
+  font-size: 1.6rem;
+  min-height: 100vh;
+}
+
+.form-control {
+  border: 1px solid #3498db !important;
+  font-size: 1.6rem !important;
+  padding: 1.5rem !important;
+}
+
+/***** End Contact page *****/
+
+.footer {
+  font-size: 1.6rem;
+}
+
+
+
+/***** card *****/
+.card-title {
+  font-size: 1.9rem;
+  font-weight: 600;
+}
+
+.card-text {
+  font-size: 1.6rem !important;
+  font-weight: 500;
+}
+
+/***** End card *****/
+
+/***** back to top btn *****/
+#myBtn
+{
+  display: none;
+  content:" ";
+  position:fixed;
+  bottom:2rem;
+  right:2rem;
+  height:auto;
+  width:auto;
+  padding:1rem 2rem;
+  color: #333;
+  border-radius: 50px;
+  background:#3498db27;
+
+  border: none;
+  
+}
+
+#myBtn {
+  font-size: 3rem;
+  font-weight: 700;
+}
+/***** End back to top btn *****/
+
+
+div .text-justify{
+  text-align: justify !important;
+}
+
+.aboutUs a{
+  text-decoration: none !important;
+  color: #eee;
+  transition: .5s;
+}
+
+
+ div .round-card{
+  border-top-left-radius: 50% !important;
+  border-top-right-radius: 50% !important;
+  /* overflow: hidden !important; */
+  height: auto;
+  width: 80% !important;
+  border: none;
+  box-shadow: 0rem 0rem 10rem 10rem #1b557c2c;
+}
+
+.bg-infos{
+  background-color:#3498db13 !important;
+}
+
+
+.imgauto{
+  height: 50rem !important;
+  width: 50rem !important;
+  /* border-top-left-radius: 50% !important;
+  border-top-right-radius: 50% !important; */
+  border-top-left-radius: 50% !important;
+  border-top-right-radius: 50% !important;
+}
