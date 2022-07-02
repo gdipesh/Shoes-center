@@ -1,7 +1,7 @@
 import React from 'react'
 import {NavLink} from "react-router-dom"
 // import Owner from './Owner'
-import Shoes from "../../image/me.jpg"
+import Shoes from "../../image/hero.png"
 const Common = (props) => {
   return (
     <>
@@ -26,17 +26,17 @@ const Common = (props) => {
                 <img src={props.imgsrc} alt={props.imgsrc}  className="img-fluid    animated" style={props.height} />
 
                 {/* For Woner Info */}
-               <div >
+               <div className='d-flex justify-content-center align-items-center'>
                <div className="card   round-card p-auto w-auto h-auto" style={props.show}>
-               <div className="continer ">
+               <div className="continer-fluid ">
           
-                    <img className="card-img-top imgauto   img-thumbnail "  src={Shoes} alt={Shoes}/>
+                    <img className="card-img-top imgauto img-fluid  img-thumbnail "  src={Shoes} alt={Shoes}/>
                </div>
                     <div className="card-body">
                         <h4 className="card-title">Owner Of Shop : Raju Nepal</h4>
                         <div className="card-text">
-                          <address>Contact No. <a href="tel:+9779877777">Click to Call</a></address>
-                          <address>Address : Birtamod, near Of Muktichoke |<br /> <a href="http:">View On Map</a></address><br />
+                          <address>Contact No. <a href="tel:+9779842106247">9842106247</a></address>
+                          <address>Address : Birtamod-5 , near Of Muktichoke |<br /> <NavLink to="/Map">View On Map</NavLink></address><br />
                           <address>Gmail : <a href="mailto:rajugita@gmail.com">rajugita@gmail.com</a></address>
                           <address><NavLink className="btn-get-started" to="/Contact"> More...</NavLink> </address>
                         </div>

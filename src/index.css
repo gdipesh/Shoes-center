@@ -207,7 +207,7 @@ div .text-justify{
   height: auto;
   width: 80% !important;
   border: none;
-  box-shadow: 0rem 0rem 10rem 10rem #1b557c2c;
+  box-shadow: 0rem 0rem 1rem 1rem #1b557c2c;
 }
 
 .bg-infos{
@@ -216,8 +216,8 @@ div .text-justify{
 
 
 .imgauto{
-  height: 50rem !important;
-  width: 50rem !important;
+  /* height: 50rem !important;
+  width: 50rem !important; */
   /* border-top-left-radius: 50% !important;
   border-top-right-radius: 50% !important; */
   border-top-left-radius: 50% !important;
