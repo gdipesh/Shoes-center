@@ -20,7 +20,7 @@ const Contact = () => {
     const formSubmit = (e) => {
 
         e.preventDefault();
-        alert(` Thank you So Much ${data.fullname} For your valuable Massage or FeedBack.  `)
+        alert(` Thank you So Much ${data.fullname} For your valuable Message or FeedBack.  `)
 
     };
     return (
